@@ -12,4 +12,4 @@ jobs:
       # shield: '["splitkb_aurora_corne_left nice_view_adapter nice_view","splitkb_aurora_corne_right"]'
       shield: '["splitkb_aurora_corne_left","splitkb_aurora_corne_right"]'
       # kconfig: '["CONFIG_ZMK_DISPLAY=y,CONFIG_ZMK_BACKLIGHT=y,CONFIG_ZMK_RGB_UNDERGLOW=y"]'
-      kconfig: '["CONFIG_ZMK_BACKLIGHT=y,CONFIG_ZMK_RGB_UNDERGLOW=y"]'
+      kconfig: '["CONFIG_ZMK_RGB_UNDERGLOW=y"]'
