@@ -13,6 +13,8 @@
 };
 
 // https://nicekeyboards.com/docs/nice-view/getting-started#using-an-existing-oled-compatible-shield
-&nice_view_spi {
-    cs-gpios = <&gpio1 7 GPIO_ACTIVE_HIGH>;
+/ {
+    &spi0 {
+      cs-gpios = <&gpio1 7 GPIO_ACTIVE_HIGH>;
+    }
 };
