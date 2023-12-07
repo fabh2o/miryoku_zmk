@@ -16,6 +16,7 @@
 
 // https://nicekeyboards.com/docs/nice-view/getting-started#using-an-existing-oled-compatible-shield
 // &gpio1 7 -> P01.07
+// &gpio1 1 -> P01.01
 &nice_view_spi {
-    cs-gpios = <&gpio1 7 GPIO_ACTIVE_HIGH>;
+    cs-gpios = <&gpio1 1 GPIO_ACTIVE_HIGH>;
 };
